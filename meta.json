@@ -4,23 +4,61 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "link",
+            "title":"Unit"
+        },
+        {
+            "id": "units",
+            "title":"Units"
+        },
+        {
+            "id": "unit",
+            "title":"Unit"
+        },
+        {
+            "id": "timezone",
+            "title":"Timezone"
+        },
+        {
+            "id": "rollup",
+            "title":"Rollup?"
+        },
+        {
+            "id": "limit",
+            "title":"Limit"
+        },
+        {
+            "id": "unit_reference_ts",
+            "title":"Timestamp"
+        },
+        {
+            "id": "format",
+            "title":"Format"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "link_clicks",
+            "title":"Bitlink Clicks"
+        },
+        {
+            "id": "tz_offset",
+            "title":"Timezone Offset"
+        },
+        {
+            "id": "unit",
+            "title":"Unit"
+        },
+        {
+            "id": "units",
+            "title":"Units"
+        },
+        {
+            "id": "unit_reference_ts",
+            "title":"Timestamp"
         }
-      */
     ],
     "title": "Bitly: Get Link Clicks" /* Required.A display name for the module */
 }
