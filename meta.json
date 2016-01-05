@@ -6,7 +6,7 @@
     "inputs": [
         {
             "id": "link",
-            "title":"Unit"
+            "title": "Bitlink"
         },
         {
             "id": "units",
