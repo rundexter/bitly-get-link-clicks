@@ -60,5 +60,9 @@
             "title":"Timestamp"
         }
     ],
+    "providers": [{
+        "name": "bitly"
+    }],
+    "icon": "dex-bitly",
     "title": "Bitly: Get Link Clicks" /* Required.A display name for the module */
 }

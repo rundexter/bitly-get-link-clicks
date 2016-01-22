@@ -32,12 +32,9 @@ module.exports = {
     run: function(step, dexter) {
         var inputs = util.pickInputs(step, pickInputs),
             validateErrors = util.checkValidateErrors(inputs, pickInputs),
-            token = dexter.environment('bitly_access_token'),
+            token = dexter.provider('bitly').credentials('access_token'),
             api = '/v3/link/clicks';
-
-        if (!token)
-            return this.fail('A [bitly_access_token] environment variable is required for this module');
-
+        
         if (validateErrors)
             return this.fail(validateErrors);
 
